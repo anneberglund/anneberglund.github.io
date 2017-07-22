@@ -5,80 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-        crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300i,400" rel="stylesheet">
-   
+    <title>Annie Berglund</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400|Teko:300,400" rel="stylesheet">
+    <script src="https://use.fontawesome.com/ad74054681.js"></script>
 </head>
 
 <body>
-    <div class="container-fluid" id="top">
-        <div class="row heading flex-parent">
-            <div class="col-xs-4">
-                <h1>ANNIE BERGLUND</h1>
+    <div class="content">
+        <!--Begin nav bar  -->
+        <div class="nav-bar" id="header">
+            <div class="nav-logo">
+                <img src="http://i.imgur.com/P0FCliP.png" alt="Annie Berglund's Logo">
             </div>
-            <div class="col-xs-8">
-                <ul class="list-inline text-right flex-item">
-                    <li><a href="xxxx">About Me</a></li>
-                    <li><a href="xxxx">Projects</a></li>
-                    <li><a href="xxxx">Resume</a></li>
-                    <li><a href="xxxx">Contact</a></li>
-                </ul>
+            <div class="nav-list">
+                <div class="nav-list-item">
+                    <p>About</p>
+                </div>
+                <div class="nav-list-item">
+                    <p>Resume</p>
+                </div>
+                <div class="nav-list-item">
+                    <p>Contact</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid hero row text-center">
-        <h3>Let's Build Something Together</h3>
-    </div>
-    <div class="info row text-center">
-        <div class="col-xs-12">
-            <h2>Take a Look</h2>
-            <p>Below are some of my projects</p>
+        <!--Begin hero  -->
+        <div class="hero">
+            <div class="hero-content">
+                <h1>Annie Berglund</h1>
+                <h2>Front-End Web Developer</h2>
+            </div>
         </div>
-    </div>
-    <div class="flex-project row text-center ">
-        <div class="col-xs-4 flex-project-item">
-            <img src="#" alt="XXXXXX">
-            <h4>Project 1</h4>
+        <!--Begin projects -->
+        <div class="projects">
+            <div class="project-title">
+                <h3>A few of my projects</h3>
+                <hr />
+            </div>
+            <div class="project-thumb project1">
+                <h5>Project Title</h5>
+            </div>
+            <div class="project-thumb project2">
+                <h5>Project Title</h5>
+            </div>
+            <div class="project-thumb project3">
+                <h5>Project Title</h5>
+            </div>
+            <div class="project-thumb project4">
+                <h5>Project Title</h5>
+            </div>
+            <div class="project-thumb project5">
+                <h5>Project Title</h5>
+            </div>
+            <div class="project-thumb project6">
+                <h5>Project Title</h5>
+            </div>
+            <div class="more-projects">
+                <p>Want to see more? Visit my <a href="#" target="_blank">GitHub!</a></p>
+            </div>
         </div>
-        <div class="col-xs-4 flex-project-item">
-            <img src="#" alt="XXXXXX">
-            <h4>Project 2</h4>
-        </div>
-        <div class="col-xs-4 flex-project-item">
-            <img src="#" alt="XXXXXX">
-            <h4>Project 3</h4>
-        </div>
-    </div>
-    <div class="flex-project row text-center">
-        <div class="col-xs-4 flex-project-item">
-            <img src="#" alt="XXXXXX">
-            <h4>Project 4</h4>
-        </div>
-        <div class="col-xs-4 flex-project-item">
-            <img src="#" alt="XXXXXX">
-            <h4>Project 5</h4>
-        </div>
-        <div class="col-xs-6 flex-project-item">
-            <img src="#" alt="XXXXXX">
-            <h4>Project 6</h4>
-        </div>
-    </div>
-    <div class="contact row text-center">
-        <div class="col-xs-12">
-            <h3>Let's Get Started</h3>
-            <form>
-                    <input type="email" class "form-control" id="input-email" placeholder="Enter your email">
+        <!-- Begin Contact Section -->
+        <div class="contact">
+            <div class="cta">
+                <p>Want to make something awesome? Drop me a line.</p>
+            </div>
+            <form class="contact-form">
+	            <input type="email" class="form-style form-email" placeholder="email">
+	            <textarea class="form-style form-message" placeholder="message"></textarea>
+	            <button type="submit" class="button-submit">SEND IT!</button>
             </form>
-        </div>
-    </div>
-    <div class="footer row text-center">
-        <div class="col-xs-12">
-            <h4><a href="#top">Back to the Top</a></h4>
-            <p>Anne Berglund 2017. All Rights Reserved</p>
+            <div class="footer">
+                <p class="back-to-top"><a href="#header">Back to top</a></p>
+                <div class="footer-items">
+                    <div class="copyright">
+                        <p>Annie Berglund -- 2017.</a></p>
+                    </div>
+                    <div class="social">
+                        <div class="social-icons">
+	                        <i class="fa fa-github" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-icons">
+	                        <i class="fa fa-instagram" aria-hidden="true"></i>
+                        </div>
+                        <div class="social-icons">
+	                        <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
 </body>
+
 </html>
